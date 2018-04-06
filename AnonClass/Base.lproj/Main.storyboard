@@ -46,7 +46,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="0lw-X3-Cg7"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Dismiss"/>
                                 <connections>
                                     <action selector="dismiss:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jDA-mJ-IhC"/>
                                 </connections>
@@ -81,8 +81,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQt-Ag-iZB">
-                                <rect key="frame" x="164.5" y="318.5" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="168.5" y="318.5" width="38" height="30"/>
+                                <state key="normal" title="Show"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="TYc-eT-VDo"/>
                                 </connections>
