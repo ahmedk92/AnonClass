@@ -13,6 +13,7 @@
 		84609A632077DC4A0030BD00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84609A622077DC4A0030BD00 /* Assets.xcassets */; };
 		84609A662077DC4A0030BD00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84609A642077DC4A0030BD00 /* LaunchScreen.storyboard */; };
 		84609A712077DC4A0030BD00 /* AnonClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84609A702077DC4A0030BD00 /* AnonClassTests.swift */; };
+		84609A7C2077E4190030BD00 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84609A7B2077E4190030BD00 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		84609A6C2077DC4A0030BD00 /* AnonClassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnonClassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84609A702077DC4A0030BD00 /* AnonClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnonClassTests.swift; sourceTree = "<group>"; };
 		84609A722077DC4A0030BD00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84609A7B2077E4190030BD00 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				84609A622077DC4A0030BD00 /* Assets.xcassets */,
 				84609A642077DC4A0030BD00 /* LaunchScreen.storyboard */,
 				84609A672077DC4A0030BD00 /* Info.plist */,
+				84609A7B2077E4190030BD00 /* Extensions.swift */,
 			);
 			path = AnonClass;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84609A5E2077DC4A0030BD00 /* ViewController.swift in Sources */,
+				84609A7C2077E4190030BD00 /* Extensions.swift in Sources */,
 				84609A5C2077DC4A0030BD00 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AnonClass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = info.ahmedkhalaf.AnonClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -370,6 +375,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AnonClass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = info.ahmedkhalaf.AnonClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
