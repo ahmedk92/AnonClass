@@ -30,7 +30,7 @@ class ViewController: UIViewController {
                 
                 deinit {
                     debug {
-                        print("deinit \(self)")
+                        print("No retain cycle 👍 \(self)")
                     }
                 }
             }
